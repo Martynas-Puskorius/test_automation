@@ -1,0 +1,4 @@
+adb shell am start com.android.systemui/com.android.systemui.DemoMode
+Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.systemui/.DemoMode }
+
+System UI access
