@@ -1,0 +1,15 @@
+Reikia kad paforwardintu PORT ir tada galeciau per webhooka sujungti github'a su jenkinsu
+
+
+1. Reikia pasirinkti kur koda laikyt
+2. Kokia kalba developinti
+3. Kokius testus rasyti
+4. Kaip updateinsim testus
+5. Kokia technika gauti testams?
+
+CD/CI tools 
+
+
+ka dabar pameginsiu tai GitHub sujungti su Jenkisn per webhooka
+
+

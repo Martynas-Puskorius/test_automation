@@ -2,3 +2,33 @@ adb shell am start com.android.systemui/com.android.systemui.DemoMode
 Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.systemui/.DemoMode }
 
 System UI access
+
+Spell checker underlining off
+
+
+Klausimai:
+
+1. Move to trash mygtukas yra rodomas tik kaip xpath. Reiketu, kad jis turetu arba accesibility id arba id. 
+Ka galime daryti dabar tai yra naudoti search by text, bet tai irgi nera gerai nes veliau atsiras naujos kalbos arba gali pasikeisti tekstai ir sugrius testai. Isvados, kad reik surasyti vietas, kurios turetu buti uzvadintos ir jas uzvadinti. 
+
+Tai dabar tesiu kaip yra bet kokisu darbus reiks atlikt:
+-Dar karta pasiaiskinti kaip mano kodas veikia
+-Surinkti visus mygtukus ir juos uzvadinti
+-Perziuret koda ir kad neliktu hardcoded irasu
+-Perziuret pavadinimus ar gerai viskas uzvadinta
+-Pasioptimizuoti testus paziuret ar tikrai visko reik galbut galima supaprastinti struktura
+-Pasileisti su Jenkinsu, slack, Git'u.
+-Pasileisti iOS testus
+-Kaip inicijuoti item klases? vienoje vietoje ar kur jau reik?
+-Kaip pasileisti ant duag device?
+-Kaip pasileisti ant real device?
+-Su skirtingom softo versijom?
+-Su skirtingais device?
+-Su skirtingom rezoliucijom.
+
+-Kazkaip reiketu kad visas nuotraukas is eiles mestu tai reiktu skaiciukus priskirti kiekvienam pavadinimui. Pavadinimas turetu turet eiles numeri, testo pavadinima ir tada stepso pavadinima. Galbut net galima uzdet laika kad abuvo padarytas screen shotas.
+
+
+Update:
+Back button
+Visi item is browse
