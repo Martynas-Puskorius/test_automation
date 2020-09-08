@@ -1,0 +1,8 @@
+# Created at 2020-08-28T14:36:02.296
+Screen shot has been taken
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'T1170', ip: '10.6.0.164', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\T1170\IdeaProjects..., appActivity: com.nordpass.android.ui.spl..., appPackage: com.nordpass.android.app.pa..., databaseEnabled: false, desired: {app: C:\Users\T1170\IdeaProjects..., appActivity: com.nordpass.android.ui.spl..., appPackage: com.nordpass.android.app.pa..., deviceName: emulator-5553, noReset: false, platformName: android}, deviceApiLevel: 29, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: android, platformVersion: 10, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: f5202d48-b339-4007-a073-5421548870dc
+

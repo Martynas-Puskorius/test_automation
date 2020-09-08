@@ -67,11 +67,11 @@ public class Base
         File appDir = new File("src");
         File app = new File(appDir, (String) prop.get(appName));
         DesiredCapabilities dc = new DesiredCapabilities();
-        //String device = (String) prop.get("device");
-        String device  = System.getProperty("deviceName");
+        String device = (String) prop.get("device");
         dc.setCapability(MobileCapabilityType.DEVICE_NAME, device);
         if(device.contains("emulator"))
         {
+            System.out.println("Starting Emulator");
             startEmulator();
         }
         dc.setCapability("platformName", "android");
@@ -92,9 +92,12 @@ public class Base
         File scrfile=	((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrfile,new File("C:\\Users\\T1170\\Desktop\\Fail\\"+s+".png"));
     }
-    public static void doVisualCheck(String checkName) throws Exception {
+    //Cia anskciau buvo static
+    public void doVisualCheck(String checkName) throws Exception {
+        String testName = this.getClass().getSimpleName();
+        //String sequenceNumber =
         double MATCH_THRESHOLD = 0.995;
-        String baselineFilename = System.getProperty("user.dir") + "\\src\\main\\java\\resources\\VisualCheck\\" + "BASELINE_" + checkName + ".png";
+        String baselineFilename = System.getProperty("user.dir") + "\\src\\main\\java\\resources\\VisualCheck\\" + testName + "\\BASELINE_" + checkName + ".png";
         File baselineImg = new File(baselineFilename);
 
         // If no baseline image exists for this check, we should create a baseline image

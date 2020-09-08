@@ -7,7 +7,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/T1170/IdeaProjects/AppiumFramework_practise">
         <classes>
-            <class name="practise.AppTest">
+            <class name="practise.SecureNoteItem_Create_Edit_Delete">
             </class>
         </classes>
     </test>
