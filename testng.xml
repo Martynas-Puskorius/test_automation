@@ -5,10 +5,10 @@
         <listener class-name="resources.Listeners"/>
         <listener class-name="resources.ExtentReporterNG"/>
     </listeners>
-    <test verbose="2" preserve-order="true" name="C:/Users/T1170/IdeaProjects/AppiumFramework_practise">
+    <test  name="C:/Users/T1170/IdeaProjects/AppiumFramework_practise">
         <classes>
-            <class name="practise.SecureNoteItem_Create_Edit_Delete">
-            </class>
+            <class name="practise.LoginItem_Create_Edit_Delete"/>
+            <class name="practise.SecureNoteItem_Create_Edit_Delete"/>
         </classes>
     </test>
 </suite>
